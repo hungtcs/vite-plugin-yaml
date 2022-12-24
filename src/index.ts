@@ -68,6 +68,7 @@ export default (
 
       return {
         code: `const data = ${toSource(yamlData)};\nexport default data;`,
+        map: { mappings: "" },
       };
     }
     return null;
