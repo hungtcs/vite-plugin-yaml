@@ -10,7 +10,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "tsup --watch src",
     "example:dev": "pnpm -C example run dev",
     "example:build": "pnpm run build && pnpm -C example run build",
