@@ -32,7 +32,7 @@ export default {
 Then you can simply import yaml files like you would any other file:
 
 ```ts
-import YamlContent from './your.yaml'
+import YamlContent from './your.yaml';
 
 console.log(YamlContent.example);
 ```
