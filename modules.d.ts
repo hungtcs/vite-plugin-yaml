@@ -1,8 +1,14 @@
+
+interface YamlDefaultObject {
+
+}
+
 declare module '*.yaml' {
-  const value: Record<string, any>;
+  const value: YamlDefaultObject;
   export default value;
 }
+
 declare module '*.yml' {
-  const value: Record<string, any>;
+  const value: YamlDefaultObject;
   export default value;
 }
